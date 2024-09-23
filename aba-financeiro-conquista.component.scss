@@ -1,0 +1,21 @@
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item .form-check-label {
+    text-decoration: none ;
+  }
+  
+  .list-group-item .form-check-input:checked ~ .form-check-label {
+    text-decoration: line-through;
+  }
+
+  .achievement{
+    width: 80%;
+  }
+
+  .noarquivo{
+    width: 50%;
+  }
+  
